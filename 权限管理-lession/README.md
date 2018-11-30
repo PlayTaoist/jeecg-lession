@@ -4,6 +4,8 @@
 
 # JEECG平台权限设计
 
+[链接存放位置：https://github.com/PlayTaoist/jeecg-lession/tree/master/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86-lession](https://github.com/PlayTaoist/jeecg-lession/tree/master/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86-lession "链接存放位置：https://github.com/PlayTaoist/jeecg-lession/tree/master/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86-lession")
+
 > # 一、权限的设计概念
 
 JEECG封装了完善的用户权限模块，支持菜单权限，列表权限，表单权限，数据权限。数据权限功能已实现极致： 支持行级、列级、字段级控制，实现不同人看不同数据，不同人对同一个页面操作不同字段。系统按钮权限和表单权限原来是正控制，只有授权的人才有权限，未授权看不到对应按钮;（admin拥有超级权限，不受控制）
