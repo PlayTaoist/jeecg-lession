@@ -14,7 +14,7 @@ JEECG封装了完善的用户权限模块，支持菜单权限，列表权限，
 
 管理员可以对用户进行管理，如果用户已经失效可以直接冻结该用户禁止其登录，新开的用户需要激活后才能登录
 
-![2](/2.png)
+![2](https://github.com/PlayTaoist/jeecg-lession/blob/master/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86-lession/images/2.png)
 
 
 
@@ -29,7 +29,7 @@ JEECG权限设计，采用用户、角色、菜单、组织机构来进行组建
 
 用户管理，用户可以分配多个角色；也可以隶属于多个组织机构，多个组织机构情况下，登录需要选择机构登录，方便数据权限控制；
 
-![3](/3.png)
+![3](https://github.com/PlayTaoist/jeecg-lession/blob/master/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86-lession/images/3.png)
 
 
 
@@ -37,7 +37,7 @@ JEECG权限设计，采用用户、角色、菜单、组织机构来进行组建
 
 角色是权限组单位，通过角色管理菜单权限。
 
-![4](/4.png)
+![4](https://github.com/PlayTaoist/jeecg-lession/blob/master/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86-lession/images/4.png)
 
 
 
@@ -45,7 +45,7 @@ JEECG权限设计，采用用户、角色、菜单、组织机构来进行组建
 
 菜单管理，用来做首页菜单管理和权限管理，权限包括：菜单访问权限、按钮权限、表单权限、数据权限。
 
-![5](/5.png)
+![5](https://github.com/PlayTaoist/jeecg-lession/blob/master/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86-lession/images/5.png)
 
 
 
@@ -53,7 +53,7 @@ JEECG权限设计，采用用户、角色、菜单、组织机构来进行组建
 
 组织机构管理，支持集团模式多个分公司，第一级默认是公司类型，从二级开始可设置部门和岗位，部门和岗位通过类型区分；组织机构可以单独设置角色；
 
-![6](/6.png)
+![6](https://github.com/PlayTaoist/jeecg-lession/blob/master/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86-lession/images/6.png)
 
 
 
@@ -93,13 +93,13 @@ JEECG权限设计，采用用户、角色、菜单、组织机构来进行组建
 
 > > #### 首先登录网站===>在线开发===>Online表单开发===>创建表单
 > >
-> > ![7](/7.png)
+> > ![7](https://github.com/PlayTaoist/jeecg-lession/blob/master/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86-lession/images/7.png)
 
 > > 创建表单后需要先同步到数据库，然后点击<u>**代码生成**</u> 。可以根据弹出的对话框选择代码生成的存放位置。然后copy到项目中。
 > >
 > > 另外一种生成方案是使用Java中的GUI生成代码。『官方建议使用Online生成』。直接run As test包下的JeecgOneGUI.java 文件然后弹出录入界面
 > >
-> > ![8](/8.png)
+> > ![8](https://github.com/PlayTaoist/jeecg-lession/blob/master/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86-lession/images/8.png)
 >
 > ```html
 > <font color="red">如果是基础功能不建议选择生成代码。直接在线生成就可以，如果有需要做开发API接口给前台使用的则需要生成代码放到项目中以便增加注解【API采用Swagger】，只有在方法上加入`@ApiOperation`注解才能在Swagger中显示。</font>
